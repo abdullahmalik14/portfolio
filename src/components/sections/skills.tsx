@@ -12,7 +12,7 @@ export function Skills() {
         <SectionHeading
           eyebrow="Skills"
           title="An interactive stack, not a progress bar."
-          description="Frontend depth with backend literacy — organized by how I actually ship."
+          description="Frontend depth with backend literacy organized by how I actually ship."
         />
 
         <div className="grid items-center gap-10 lg:grid-cols-[0.9fr_1.1fr]">

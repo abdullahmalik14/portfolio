@@ -54,12 +54,12 @@ export const heroContent = {
 export const aboutContent = {
   heading: "About",
   intro:
-    "I'm Abdullah Asim, a frontend & MERN stack developer with 3+ years of experience designing and shipping responsive, user-centric, performance-optimized web applications.",
+    "I'm Abdullah Asim, a frontend & MERN stack developer with 4 years of experience designing and shipping responsive, user-centric, performance-optimized web applications.",
   paragraphs: [
-    "Highly skilled in React.js, Next.js, Vue.js, and the MERN stack. I turn complex requirements into seamless experiences through clean, maintainable code and thoughtful component architecture.",
-    "I build SaaS dashboards, ecommerce storefronts, and product UIs — with strong UI/UX principles, Tailwind CSS / Material UI, REST APIs, and deployment on Vercel and Netlify.",
-    "Alongside agency work, I freelanced on Upwork as a Top Rated freelancer with 100% Job Success — delivering high-quality products for clients worldwide.",
-    "I'm open to opportunities where I can contribute, learn, and grow. If you have a role that matches my skills, let's talk.",
+"Highly skilled in React.js, Next.js, Vue.js, WordPress, WooCommerce, and the MERN stack. I turn complex requirements into seamless digital experiences through clean, maintainable code and thoughtful component architecture.",
+"I build SaaS dashboards, ecommerce storefronts, real estate websites, and product UIs with strong UI/UX principles, Tailwind CSS / Material UI, REST APIs, WordPress / WooCommerce, and deployment on Vercel and Netlify.",   
+"Alongside agency work, I freelanced on Upwork as a Top Rated freelancer with 100% Job Success, delivering high-quality products for clients worldwide.",
+"I'm open to opportunities where I can contribute, learn, and grow. If you have a role that matches my skills, let's talk."
   ],
   values: [
     {
@@ -85,32 +85,14 @@ export const aboutContent = {
     {
       year: "Ongoing",
       title: "Upwork · Top Rated",
-      detail: "Freelance MERN developer — 100% Job Success, $8K+ earned, 1,570+ hours",
+      detail: "Freelance MERN developer — 100% Job Success, $9K+ earned, 1,750+ hours",
     },
     { year: "Now", title: "Open to work", detail: "Seeking impactful frontend / product roles" },
   ],
 } as const;
 
 export const experiences = [
-  {
-    title: "Frontend Developer",
-    company: "Techsinc",
-    location: "Pakistan",
-    period: "November 2024 — June 2025",
-    description:
-      "Built dynamic, responsive web applications across the MERN stack with React.js and Next.js. Owned reusable UI systems, UX improvements, and API integration. Also handled Node.js backend work — CRUD, REST APIs, and third-party services — ensuring efficient data flow across the stack.",
-    technologies: [
-      "React",
-      "Next.js",
-      "TypeScript",
-      "Node.js",
-      "Express",
-      "MongoDB",
-      "Material UI",
-      "Bootstrap",
-      "Git",
-    ],
-  },
+
   {
     title: "Frontend Developer",
     company: "Pluton",
@@ -131,11 +113,31 @@ export const experiences = [
   },
   {
     title: "MERN Stack Developer",
+    company: "Techsinc",
+    location: "Pakistan",
+    period: "November 2024 — June 2025",
+    description:
+      "Built dynamic, responsive web applications across the MERN stack with React.js and Next.js. Owned reusable UI systems, UX improvements, and API integration. Also handled Node.js backend work — CRUD, REST APIs, and third-party services — ensuring efficient data flow across the stack.",
+    technologies: [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Material UI",
+      "Bootstrap",
+      "Git",
+    ],
+  },
+ 
+  {
+    title: "MERN Stack Developer",
     company: "Upwork",
     location: "Remote",
     period: "2023 — Present",
     description:
-      "Top Rated Upwork freelancer with 100% Job Success ($8K+ earned, 1,570+ hours). Built and shipped SaaS products, ecommerce experiences, and full-stack MERN apps for global clients. Owned work end-to-end — UI systems in React, Next.js, and Vue.js, Node.js APIs, MongoDB, and polished delivery from Figma to production — with a strong focus on quality and client satisfaction.",
+      "Top Rated Upwork freelancer with 100% Job Success ($9K+ earned, 1,750+ hours). Built and shipped SaaS products, ecommerce experiences, and full-stack MERN apps for global clients. Owned work end-to-end — UI systems in React, Next.js, and Vue.js, Node.js APIs, MongoDB, and polished delivery from Figma to production — with a strong focus on quality and client satisfaction.",
     technologies: [
       "React",
       "Next.js",
@@ -146,6 +148,8 @@ export const experiences = [
       "Express",
       "TypeScript",
       "Tailwind CSS",
+      "WordPress",
+      "WooCommerce",
       "Figma",
       "Git",
     ],
@@ -189,7 +193,7 @@ export const projects = [
     image: "/images/project-1.jpg",
     tagline: "MERN system for attendance, leave, and shift workflows.",
     description:
-      "Full-stack employee management system built with the MERN stack. Simplifies attendance tracking, leave requests, and shift scheduling for employees — with admin control over data and schedules.",
+      "Full-stack employee management system built with the MERN stack. Simplifies attendance tracking, leave requests, and shift scheduling for employees with admin control over data and schedules.",
     highlights: [
       "Attendance, leave, and shift modules",
       "Employee + admin experiences",
@@ -230,6 +234,8 @@ export const skillCategories = [
       "Tailwind CSS",
       "Material UI",
       "Bootstrap",
+      "WordPress",
+      "WooCommerce",
     ],
   },
   {
@@ -256,6 +262,8 @@ export const techStack = [
   { name: "Git", category: "Workflow" },
   { name: "Figma", category: "Design" },
   { name: "Vercel", category: "Deploy" },
+  { name: "WordPress", category: "CMS" },
+  { name: "WooCommerce", category: "Ecommerce" },
 ] as const;
 
 export const services = [
@@ -285,17 +293,17 @@ export const achievements = [
   {
     title: "Upwork Top Rated · 100% Job Success",
     description:
-      "Trusted freelancer with $8K+ earned and 1,570+ hours delivered — consistent quality and client satisfaction.",
+      "Trusted freelancer with $8K+ earned and 1,570+ hours delivered consistent quality and client satisfaction.",
   },
   {
     title: "3+ years shipping products",
     description:
-      "Consistent delivery across Upwork, Pluton, and Techsinc — from reusable UI systems to production releases.",
+      "Consistent delivery across Upwork, Pluton, and Techsinc from reusable UI systems to production releases.",
   },
   {
     title: "SaaS & ecommerce delivery",
     description:
-      "Shipped SaaS dashboards and ecommerce experiences alongside MERN apps — focused on UX, conversion, and maintainable code.",
+      "Shipped SaaS dashboards and ecommerce experiences alongside MERN apps focused on UX, conversion, and maintainable code.",
   },
   {
     title: "Full-stack MERN capability",

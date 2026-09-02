@@ -15,7 +15,7 @@ export function Achievements() {
         <SectionHeading
           eyebrow="Highlights"
           title="Signals of experience."
-          description="Not vanity metrics — concrete strengths from real product work."
+          description="Not vanity metrics — concrete strengths built through real product work."
           align="center"
         />
 
