@@ -158,6 +158,36 @@ export const experiences = [
 
 export const projects = [
   {
+    slug: "aurora-ai",
+    title: "Aurora AI",
+    featured: true,
+    image: "/images/aurora-ai.png",
+    tagline: "AI-powered analytics & automation SaaS for modern teams.",
+    description:
+      "Built a full SaaS product website for Aurora AI — from marketing landing and pricing to auth flows and a multi-page dashboard. Teams can explore analytics, automations, projects, billing, and integrations in a polished React experience focused on clarity and conversion.",
+    highlights: [
+      "Marketing site with hero, features, pricing, FAQ, and CTA flows",
+      "Auth screens plus protected dashboard routes",
+      "Analytics, automations, projects, team, billing & integrations",
+      "Charts, motion polish, and a clean multi-page SaaS architecture",
+    ],
+    stats: [
+      { label: "Type", value: "SaaS" },
+      { label: "Focus", value: "AI Analytics" },
+      { label: "Role", value: "Frontend" },
+    ],
+    technologies: [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "Framer Motion",
+      "React Router",
+      "Recharts",
+    ],
+    liveUrl: "https://aurora-ai-brown.vercel.app/",
+    githubUrl: "https://github.com/abdullahmalik14",
+  },
+  {
     slug: "aurelia-estates",
     title: "Aurelia Estates",
     featured: true,
